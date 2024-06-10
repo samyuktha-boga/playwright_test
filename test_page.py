@@ -41,7 +41,7 @@ def test_page():
         page.locator("id=first-name").fill("Janny")
         page.locator("id=last-name").click()
         page.locator("id=last-name").fill("Phill")
-        page.locator("[data-test=\"postalCode\"]").click()
+        page.locator("id=postal-code").click()
         page.locator("[data-test=\"postalCode\"]").fill("32323")
         page.locator("[data-test=\"continue\"]").click()
         page.locator("[data-test=\"finish\"]").click()
